@@ -1,7 +1,7 @@
 # Dependency Injection (DI)
 
 This repository provides a simple implementation of **Dependency Injection (DI)** in Java. 
-With DI, object creation and dependency management are centralized, making your code more modular, testable, and maintainable.
+With DI, object creation and dependency management are centralized.
 
 ## Key Concepts
 
@@ -38,7 +38,11 @@ With DI, object creation and dependency management are centralized, making your 
 
    ```java
    StartUI ui = context.get(StartUI.class);
-   ui.add();
    ```
+3. **Use Objects**
 
+   ```java
+   ui.add("Text");
+   ui.print();
+   ```
 
